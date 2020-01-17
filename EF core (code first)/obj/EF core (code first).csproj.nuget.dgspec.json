@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core (code first)\\EF core (code first)\\EF core (code first).csproj": {}
+    "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core_code first\\EF core (code first)\\EF core (code first).csproj": {}
   },
   "projects": {
-    "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core (code first)\\EF core (code first)\\EF core (code first).csproj": {
+    "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core_code first\\EF core (code first)\\EF core (code first).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core (code first)\\EF core (code first)\\EF core (code first).csproj",
+        "projectUniqueName": "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core_code first\\EF core (code first)\\EF core (code first).csproj",
         "projectName": "EF core (code first)",
-        "projectPath": "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core (code first)\\EF core (code first)\\EF core (code first).csproj",
+        "projectPath": "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core_code first\\EF core (code first)\\EF core (code first).csproj",
         "packagesPath": "C:\\Users\\RomanKunovskyi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core (code first)\\EF core (code first)\\obj\\",
+        "outputPath": "C:\\Users\\RomanKunovskyi\\source\\repos\\EF core_code first\\EF core (code first)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,6 +42,24 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
