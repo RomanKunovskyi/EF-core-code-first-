@@ -4,7 +4,7 @@ namespace EF_core__code_first_.Entity
 {
     public class User
     {
-        public long ID { get; set; }
+        public long Id { get; set; }
         public string Nickname { get; set; }
         public string Password { get; set; }
 

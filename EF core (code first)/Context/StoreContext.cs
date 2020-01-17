@@ -14,7 +14,7 @@ namespace EF_core__code_first_.Context
 
         public StoreContext()
         {
-            Database.EnsureCreated();
+            //Database.EnsureCreated();
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
