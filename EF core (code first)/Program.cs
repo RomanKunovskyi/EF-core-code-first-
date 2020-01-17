@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EF_core__code_first_.Context;
+using System;
 
 namespace EF_core__code_first_
 {
@@ -6,7 +7,10 @@ namespace EF_core__code_first_
     {
         static void Main(string[] args)
         {
-            
+            using (StoreContext Context = new StoreContext())
+            {
+
+            }
         }
     }
 }
