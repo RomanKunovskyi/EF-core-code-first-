@@ -18,7 +18,7 @@ namespace EF_core__code_first_.Context
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=Store;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(ConnectionRepository.ConnectionString.GetDefaultConnectionString());
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
